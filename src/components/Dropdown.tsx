@@ -61,7 +61,7 @@ const Dropdown: React.FC<DropdownProps> = ({
                 value={searchTerm}
                 onChange={handleSearchData}
                 onKeyDown={(e) => {
-                    if(e.code === "Enter") {
+                    if(e.key === "Enter") {
                         handleSearch((e.target as HTMLInputElement).value)
                     }
                 }}
