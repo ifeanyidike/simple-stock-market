@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from 'react'
 import {debounce} from 'lodash';
 
-type Props<T> = {
+type Props = {
     queryString: string | null;
     key?: string;
 }
-const useQuery = <T,>({queryString, key}: Props<T>) => {
+const useQuery = <T,>({queryString, key}: Props) => {
     
     const [data, setData] = useState<T | null>(null)
     const [loading, setLoading] = useState(false);
