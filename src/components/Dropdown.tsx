@@ -40,7 +40,7 @@ const Dropdown: React.FC<DropdownProps> = ({
   };
 
   return (
-    <div className={`relative inline-block ${hasSearch ? 'w-96' : 'w-64'}`} ref={dropdownRef}>
+    <div className="relative inline-block w-full" ref={dropdownRef}>
       <div
         className="flex items-center justify-between border border-gray-300 rounded-md px-4 py-2 cursor-pointer bg-white"
         onClick={() => setIsOpen(!isOpen)}

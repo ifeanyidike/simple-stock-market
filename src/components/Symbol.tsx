@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from 'react'
 import Dropdown from './Dropdown'
-import useQuery from './useQuery';
+import useQuery from '../hooks/useQuery';
 import { SearchItem, StockSymbol } from '../types';
 
 type Props = {

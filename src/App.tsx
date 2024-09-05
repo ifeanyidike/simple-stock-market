@@ -10,11 +10,11 @@ function App() {
   return (
     <div>
       <div className="flex bg-gray-200 p-8 justify-between max-md:flex-col max-md:gap-8">
-        <div>
+        <div className='w-64 max-md:w-full'>
           <h1 className="text-lg mb-2 max-md:mb-1">Choose the stock resolution</h1>
           <Resolution setResolution={setResolution} resolution={resolution} />
         </div>
-        <div>
+        <div className='w-96 max-md:w-full'>
           <h1 className="text-lg mb-2 max-md:mb-1">Choose the stock symbol</h1>
           <Symbol setSymbol={setSymbol} symbol={symbol} />
         </div>
