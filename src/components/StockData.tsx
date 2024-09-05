@@ -45,7 +45,7 @@ const StockData: React.FC<Props> = ({ resolution, symbol }) => {
       <div className="overflow-x-auto">
         <table className="min-w-full border-collapse border border-gray-200 rounded">
           <thead>
-            <tr>
+            <tr className="bg-gray-100/80">
               <th className="border border-gray-200 px-4 py-2">Time</th>
               <th className="border border-gray-200 px-4 py-2">Open</th>
               <th className="border border-gray-200 px-4 py-2">High</th>
